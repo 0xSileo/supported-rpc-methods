@@ -1,0 +1,3 @@
+[submodule "libs/execution-api"]
+	path = libs/execution-api
+	url = https://github.com/ethereum/execution-apis
