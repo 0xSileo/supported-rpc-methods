@@ -5,8 +5,8 @@
 #TODO CHECK IF FILE EXISTS
 
 
-echo "ID,METHOD,ENDPOINT,TIMESTAMP" >> queriesTemp.csv
-echo "ID,SUCCESS" >> queriesSuccess.csv
+echo "ID,METHOD,ENDPOINT,TIMESTAMP" > queriesTemp.csv
+echo "ID,SUCCESS" > queriesSuccess.csv
 
 # Put manual tests and pre existent tests in a single file
 cat manualTests.txt > allTests.txt
@@ -76,4 +76,15 @@ done < testResponses.txt
 
 
 csvjoin -c "ID" queriesTemp.csv queriesSuccess.csv > queriesResults.csv
-csvcut -C "ID" queriesResults.csv > queries.csv
+csvcut -C "ID" queriesResults.csv > ../results/queries.csv
+
+
+#Generate md file 
+echo "# Supported RPC methods for various " > ../results/README.md
+./createMarkdown.sh >> ../results/README.md
+
+rm queriesTemp.csv
+rm queriesSuccess.csv
+rm queriesResults.csv
+rm testResponses.txt
+rm allTests.txt
