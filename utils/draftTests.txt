@@ -1,0 +1,9 @@
+
+{"jsonrpc":"2.0","id":1,"method":"eth_getFilterChanges","params":["<FILTER_ID>"]}
+{"jsonrpc":"2.0","id":1,"method":"eth_getFilterLogs","params":["<FILTER_ID>"]}
+{"jsonrpc":"2.0","id":1,"method":"eth_uninstallFilter","params":["<FILTER_ID>"]}
+
+{"jsonrpc":"2.0","id":1,"method":"eth_sendTransaction","params":[{"<SIGNED_TRANSACTION_DATA>"}]}
+{"jsonrpc":"2.0","id":1,"method":"eth_sign","params":["<ADDRESS_TO_SIGN>","<DATA_TO_SIGN>"]}
+{"jsonrpc":"2.0","id":1,"method":"eth_signTransaction","params":[{"<TRANSACTION_OBJECT>"}]}
+

@@ -1,0 +1,9 @@
+{"jsonrpc":"2.0","id":1,"method":"eth_accounts","params":[]}
+{"jsonrpc":"2.0","id":1,"method":"eth_coinbase","params":[]}
+{"jsonrpc":"2.0","id":1,"method":"eth_gasPrice","params":[]}
+{"jsonrpc":"2.0","id":1,"method":"eth_maxPriorityFeePerGas","params":[]}
+{"jsonrpc":"2.0","id":1,"method":"eth_getUncleCountByBlockHash","params":["0x9a71a95be3fe957457b11817587e5af4c7e24836d5b383c430ff25b9286a457f"]}
+{"jsonrpc":"2.0","id":1,"method":"eth_getUncleCountByBlockNumber","params":["15000000"]}
+{"jsonrpc":"2.0","id":1,"method":"eth_newBlockFilter","params":[]}
+{"jsonrpc":"2.0","id":1,"method":"eth_newPendingTransactionFilter","params":[]}
+{"jsonrpc":"2.0","id":1,"method":"eth_newFilter","params":[{"address": "0x10ff128f76f6a02c3ae59c9ca62d4f4c195dd46cf104"}]}
