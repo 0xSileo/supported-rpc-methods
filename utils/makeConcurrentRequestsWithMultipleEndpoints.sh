@@ -69,7 +69,6 @@ while IFS= read -r response_line; do
 		id=$(jq '.id' <<<  "$response_line")
 		succeeded=$(jq 'has("result")' <<< "$response_line")
 		echo $id,$succeeded >> queriesSuccess.csv
-		echo $id,$succeeded
     else
         echo "Invalid JSON"
     fi
