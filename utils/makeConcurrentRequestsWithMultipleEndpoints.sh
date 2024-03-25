@@ -65,7 +65,7 @@ sed -i '/^$/d' testResponses.txt
 while IFS= read -r response_line; do
     # Check if the line is a valid JSON object
     if jq -e . >/dev/null 2>&1 <<< "$response_line"; then
-        # Check if the JSON object has "result" field and no "error" field
+        # Check if the JSON object has "result" field
 		id=$(jq '.id' <<<  "$response_line")
 		echo $id
 		echo $response_line
