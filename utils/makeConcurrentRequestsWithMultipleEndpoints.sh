@@ -80,7 +80,7 @@ csvcut -C "ID" queriesResults.csv > ../results/queries.csv
 
 
 #Generate md file 
-echo "# Supported RPC methods for various " > ../results/README.md
+echo "# Supported RPC methods for various RPC providers" > ../results/README.md
 ./createMarkdown.sh >> ../results/README.md
 
 rm queriesTemp.csv

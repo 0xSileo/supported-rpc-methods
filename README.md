@@ -1,5 +1,5 @@
 # supported-rpc-methods
-Website displaying which methods are supported by which common rpc endpoints
+Repo displaying which [Ethereum JSON-RPC methods](https://ethereum.org/en/developers/docs/apis/json-rpc/) are supported by common RPC endpoints/providers.
 
 ## Problem
 While waiting for the `supportsMethod` method, we can query different enpoints for every JSON-RPC method and construct a table of supported methods. This could then be used to select an appropriate RPC endpoint.
