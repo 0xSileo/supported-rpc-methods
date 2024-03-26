@@ -17,15 +17,15 @@
 | eth_gasPrice | ✅ | ✅ | ✅ | 
 | eth_getBalance | ✅ | ✅ | ✅ | 
 | eth_getBlockByHash | ✅ | ✅ | ✅ | 
-| eth_getBlockByNumber | ✅ | ✅ | ✅ | 
+| eth_getBlockByNumber | ✅ | ✅ | 
 | eth_getBlockReceipts | ✅ | ✅ | ❌ | 
 | eth_getBlockTransactionCountByHash | ✅ | ✅ | ✅ | 
 | eth_getBlockTransactionCountByNumber | ✅ | ✅ | ✅ | 
-| eth_getCode | ✅ | ✅ | 
+| eth_getCode | ✅ | ✅ | ✅ | 
 | eth_getLogs | ✅ | ✅ | ✅ | 
 | eth_getProof | ✅ | ✅ | ✅ | 
-| eth_getStorageAt | ✅ | ✅ | 
-| eth_getTransactionByBlockHashAndIndex | ✅ | ✅ | 
+| eth_getStorageAt | ✅ | ✅ | ✅ | 
+| eth_getTransactionByBlockHashAndIndex | ✅ | ✅ | ✅ | 
 | eth_getTransactionByBlockNumberAndIndex | ✅ | ✅ | ✅ | 
 | eth_getTransactionByHash | ✅ | ✅ | ✅ | 
 | eth_getTransactionCount | ✅ | ✅ | ✅ | 
